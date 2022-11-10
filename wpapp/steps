@@ -1,0 +1,22 @@
+1. npm init --y
+2. npm i webpack webpack-cli
+3. npx webpack init
+
+
+none
+yes
+yes
+no
+css only
+no
+no
+yes
+npm
+4. npm run serve
+5. npm i react react-dom
+6. npm i -D @babel/preset-react
+7. npx webpack serve
+
+
+8. npm i -D @babel/cli
+npx babel --watch --presets=@babel/preset-react src/index.js -o translated.js
