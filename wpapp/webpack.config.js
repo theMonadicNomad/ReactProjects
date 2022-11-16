@@ -31,7 +31,7 @@ const config = {
         test: /\.js$/,
         loader: 'babel-loader', //transform jsx into regular js files
         options: {
-          presets: ['@babel/preset-react']
+          presets: ['@babel/preset-react'] //, '@babel/preset-env']
 
 
         }
